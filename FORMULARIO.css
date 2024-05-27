@@ -1,0 +1,23 @@
+h1{
+font-size: 30px;
+text-align: center;
+}
+
+.col-3 {
+	display: block;
+	padding: 20px;
+}
+
+
+
+p
+{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+body {
+	font-family: sans-serif;
+	background-color: rgb(222, 206, 184);
+}
