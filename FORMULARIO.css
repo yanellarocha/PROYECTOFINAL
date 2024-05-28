@@ -1,23 +1,152 @@
-h1{
+.header {
+	width: 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 110vh;
+	display: flex;
+	align-items: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+ul {
+position: absolute;
+float: right;
+top: 0;
+left: 500px;
+padding: 12px;
+list-style: none;
+display: flex;
+gap: 9px;
+}
+
+a{
+font-size: 13px;
+padding: 10px;
+font-weight: 600;
+color: white;
+display: block;
+align-items: flex-end;
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(98, 94, 81);
+font-size: 13px;
+transition: all 0,3s
+}
+
+nav{
+position: fixed;
+top: 0;
+width:100%;
+height: 50px;
+background-color: #b99768;;
+}
+
+
+h2 {
+position: absolute;
+top: 0;
+font-weight: 600;
+padding: 12px;
+left: 55px;
+color: #FFFDFC;
+}
+
+
+h1 {
+color: rgb(235, 239, 228);
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100%;
+height: auto;
+padding: 40px;
+text-transform: uppercase;
+font-size: 35px;
+transform: translate(-50%, -50%);
+letter-spacing: 3px;
+line-height: 1.4;
+}
+
+h3{
 font-size: 30px;
 text-align: center;
 }
 
-.col-3 {
+.col {
 	display: block;
-	padding: 20px;
+	padding: 15px;
 }
 
+input{
+	border: 2px solid rgb(215, 209, 209);
+    border-radius: 2px;
+    width: 5cm;
+    height: 41px;
+	align-items: center;
+}
 
+select{
+	width: 2cm;
+	margin-top: 0.5cm;
+}
 
-p
-{
+.text-consulta2{
+	font-size: 17px;
+	text-align: left;
+}
+
+.text-consulta{
+	text-align: center;
+}
+
+.p-3{
+	font-weight: 400;
+}
+
+.text-contacto{
+	text-align:  center;
+	font-size: 15px;
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
-	
 }
 
 body {
 	font-family: sans-serif;
-	background-color: rgb(222, 206, 184);
+	background-color: #b9a78e
+}
+
+main{
+	margin: 50px;
+}
+
+.btn{
+	margin: 50px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(19, 19, 14)
+}
+
+.card-title2{
+    font-size: 20px;
+    color: #b99768;
+}
+
+.card-text2{
+    font-size: 10px;
+    color: #272626;
+}
+
+.card-footer{
+    color: #111111;
+    font-size: 10px;
 }
